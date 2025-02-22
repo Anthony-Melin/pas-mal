@@ -10,4 +10,5 @@ export default defineConfig({
         environment: 'jsdom',
         setupFiles: './test.config.ts',
     },
+    base: '/pas-mal/',
 })

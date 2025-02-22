@@ -6,7 +6,7 @@ const Content = () => {
     return (
         <main>
             <div>
-                <img src="/pasmal.jpg" alt="pour ajouter du texte" />
+                <img src="pasmal.jpg" alt="pour ajouter du texte" />
 
                 <p id="pas" className="pas-mal">
                     Pas
