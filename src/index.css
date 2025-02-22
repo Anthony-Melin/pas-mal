@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, fantasy;
+    margin: 0;
+    color: white;
+    background-color: #323232;
+}
+
+header {
+    display: flex;
+    background-color: #232323;
+    padding-left: 35px;
+}
+
+main {
+    padding: 25px 25px;
+    display: grid;
+    grid-template-columns: 640px 320px;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@property --shadow-color {
+    syntax: '*';
+    inherits: false;
+    initial-value: gray;
+}
+
+.pas-mal {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    position: relative;
+    font-size: 128px;
+    text-shadow:
+        var(--shadow-color) 0 2px,
+        var(--shadow-color) 0 -2px,
+        var(--shadow-color) 2px 0,
+        var(--shadow-color) -2px 0,
+        var(--shadow-color) 1px 1px,
+        var(--shadow-color) 1px -1px,
+        var(--shadow-color) -1px -1px,
+        var(--shadow-color) -1px 1px;
+}
+
+#pas {
+    top: -370px;
+    left: 30px;
+}
+
+#mal {
+    top: -518px;
+    left: 400px;
+}
+
+#insert-text {
+    width: 100%;
+    text-align: center;
+    top: calc(-438px);
+}
